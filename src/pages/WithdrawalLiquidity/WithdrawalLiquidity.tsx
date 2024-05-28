@@ -1,6 +1,6 @@
-import { PoolId } from 'ergo-dex-sdk-custom';
 import { Skeleton } from '@ergolabs/ui-kit';
 import { t } from '@lingui/macro';
+import { PoolId } from 'ergo-dex-sdk-custom';
 import { useNavigate } from 'react-router-dom';
 
 import { useObservable } from '../../common/hooks/useObservable';

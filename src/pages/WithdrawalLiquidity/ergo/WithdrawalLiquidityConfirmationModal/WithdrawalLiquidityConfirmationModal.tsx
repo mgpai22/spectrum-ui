@@ -1,9 +1,9 @@
-import { mkLockActions } from 'ergo-dex-sdk-custom';
-import { WithdrawalParams } from 'ergo-dex-sdk-custom/build/main/security/models';
 import { RustModule } from '@ergolabs/ergo-sdk';
 import { MinTransactionContext } from '@ergolabs/ergo-sdk/build/main/wallet/entities/transactionContext';
 import { Button, Flex, Modal, Typography } from '@ergolabs/ui-kit';
 import { t, Trans } from '@lingui/macro';
+import { mkLockActions } from 'ergo-dex-sdk-custom';
+import { WithdrawalParams } from 'ergo-dex-sdk-custom/build/main/security/models';
 import { DateTime } from 'luxon';
 import { FC } from 'react';
 

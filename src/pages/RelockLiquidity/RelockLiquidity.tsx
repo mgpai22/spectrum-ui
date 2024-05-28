@@ -1,4 +1,3 @@
-import { blocksToMillis, PoolId } from 'ergo-dex-sdk-custom';
 import {
   Animation,
   Flex,
@@ -10,6 +9,7 @@ import {
 } from '@ergolabs/ui-kit';
 import { t, Trans } from '@lingui/macro';
 import { ElementLocation } from '@spectrumlabs/analytics';
+import { blocksToMillis, PoolId } from 'ergo-dex-sdk-custom';
 import { DateTime } from 'luxon';
 import { useNavigate } from 'react-router-dom';
 import { map } from 'rxjs';

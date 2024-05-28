@@ -1,4 +1,3 @@
-import { OpStatus } from 'ergo-dex-sdk-custom/build/main/amm/common/models/ammOperation';
 import {
   Address,
   BoxSelection,
@@ -7,6 +6,7 @@ import {
   ErgoTx,
   TxId,
 } from '@ergolabs/ergo-sdk';
+import { OpStatus } from 'ergo-dex-sdk-custom/build/main/amm/common/models/ammOperation';
 
 import { ERG_DECIMALS } from '../common/constants/erg';
 import { ammOrderRefunds } from '../services/amm';

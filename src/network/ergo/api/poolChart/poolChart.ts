@@ -1,5 +1,5 @@
-import type { PoolId } from 'ergo-dex-sdk-custom';
 import axios from 'axios';
+import type { PoolId } from 'ergo-dex-sdk-custom';
 import { catchError, from, map, Observable, of } from 'rxjs';
 
 import { applicationConfig } from '../../../../applicationConfig';

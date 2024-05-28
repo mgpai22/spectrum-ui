@@ -1,6 +1,6 @@
-import { PoolId } from 'ergo-dex-sdk-custom';
 import { Flex, Skeleton, useDevice } from '@ergolabs/ui-kit';
 import { t } from '@lingui/macro';
+import { PoolId } from 'ergo-dex-sdk-custom';
 import * as React from 'react';
 import { useNavigate } from 'react-router-dom';
 

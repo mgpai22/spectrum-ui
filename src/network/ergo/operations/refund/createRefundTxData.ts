@@ -1,10 +1,10 @@
-import { RefundParams } from 'ergo-dex-sdk-custom';
 import {
   DefaultBoxSelector,
   InsufficientInputs,
   MinTransactionContext,
 } from '@ergolabs/ergo-sdk';
 import { NetworkContext } from '@ergolabs/ergo-sdk/build/main/entities/networkContext';
+import { RefundParams } from 'ergo-dex-sdk-custom';
 import { first, map, Observable, zip } from 'rxjs';
 
 import { Currency } from '../../../../common/models/Currency';

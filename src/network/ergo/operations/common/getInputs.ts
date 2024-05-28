@@ -1,4 +1,3 @@
-import { minValueForOrder, minValueForSetup } from 'ergo-dex-sdk-custom';
 import {
   AssetAmount,
   BoxSelection,
@@ -7,6 +6,7 @@ import {
   InsufficientInputs,
   MinBoxValue,
 } from '@ergolabs/ergo-sdk';
+import { minValueForOrder, minValueForSetup } from 'ergo-dex-sdk-custom';
 
 import { NEW_MIN_BOX_VALUE } from '../../../../common/constants/erg';
 import { makeTarget } from './makeTarget';

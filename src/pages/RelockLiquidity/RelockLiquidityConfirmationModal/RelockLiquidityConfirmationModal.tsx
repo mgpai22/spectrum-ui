@@ -1,9 +1,4 @@
 import {
-  millisToBlocks,
-  mkLockActions,
-  RelockParams,
-} from 'ergo-dex-sdk-custom';
-import {
   AssetAmount,
   BoxSelection,
   DefaultBoxSelector,
@@ -12,6 +7,11 @@ import {
 } from '@ergolabs/ergo-sdk';
 import { Button, Checkbox, Flex, Modal, Typography } from '@ergolabs/ui-kit';
 import { t, Trans } from '@lingui/macro';
+import {
+  millisToBlocks,
+  mkLockActions,
+  RelockParams,
+} from 'ergo-dex-sdk-custom';
 import { DateTime } from 'luxon';
 import { FC, useState } from 'react';
 

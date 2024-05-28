@@ -1,7 +1,7 @@
-import { PoolId } from 'ergo-dex-sdk-custom';
 import { Flex, Form, useForm } from '@ergolabs/ui-kit';
 import { Trans } from '@lingui/macro';
 import { ElementLocation } from '@spectrumlabs/analytics';
+import { PoolId } from 'ergo-dex-sdk-custom';
 import { FC } from 'react';
 import { useParams } from 'react-router';
 import { useNavigate } from 'react-router-dom';

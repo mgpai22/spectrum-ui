@@ -1,7 +1,7 @@
-import { DepositParams } from 'ergo-dex-sdk-custom';
-import { NativeExFeeType } from 'ergo-dex-sdk-custom/build/main/types';
 import { AssetAmount, ErgoBox, TransactionContext } from '@ergolabs/ergo-sdk';
 import { NetworkContext } from '@ergolabs/ergo-sdk/build/main/entities/networkContext';
+import { DepositParams } from 'ergo-dex-sdk-custom';
+import { NativeExFeeType } from 'ergo-dex-sdk-custom/build/main/types';
 import { first, map, Observable, zip } from 'rxjs';
 
 import { UI_FEE_BIGINT } from '../../../../../common/constants/erg';

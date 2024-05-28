@@ -1,11 +1,11 @@
+import { AssetAmount, ErgoBox, TransactionContext } from '@ergolabs/ergo-sdk';
+import { NetworkContext } from '@ergolabs/ergo-sdk/build/main/entities/networkContext';
 import { SwapParams } from 'ergo-dex-sdk-custom';
 import {
   SwapExtremums,
   swapVars,
 } from 'ergo-dex-sdk-custom/build/main/amm/common/math/swap';
 import { SpecExFeeType } from 'ergo-dex-sdk-custom/build/main/types';
-import { AssetAmount, ErgoBox, TransactionContext } from '@ergolabs/ergo-sdk';
-import { NetworkContext } from '@ergolabs/ergo-sdk/build/main/entities/networkContext';
 import { first, map, Observable, zip } from 'rxjs';
 
 import { NEW_MIN_BOX_VALUE } from '../../../../../common/constants/erg';

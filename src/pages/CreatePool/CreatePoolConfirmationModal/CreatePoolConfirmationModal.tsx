@@ -1,9 +1,4 @@
 import {
-  makePoolSetupParams,
-  minValueForSetup,
-  PoolSetupParams,
-} from 'ergo-dex-sdk-custom';
-import {
   AssetAmount,
   BoxSelection,
   DefaultBoxSelector,
@@ -11,6 +6,11 @@ import {
 import { AssetInfo } from '@ergolabs/ergo-sdk/build/main/entities/assetInfo';
 import { Button, Divider, Flex, Modal, Typography } from '@ergolabs/ui-kit';
 import { t, Trans } from '@lingui/macro';
+import {
+  makePoolSetupParams,
+  minValueForSetup,
+  PoolSetupParams,
+} from 'ergo-dex-sdk-custom';
 import { FC } from 'react';
 
 import { ERG_DECIMALS } from '../../../common/constants/erg';

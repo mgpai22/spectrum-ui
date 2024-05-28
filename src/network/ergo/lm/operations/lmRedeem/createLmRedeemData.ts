@@ -1,7 +1,7 @@
-import { ActionContext } from 'ergo-dex-sdk-custom/build/main/lqmining/models/actionContext';
-import { LqRedeemConf } from 'ergo-dex-sdk-custom/build/main/lqmining/models/poolOpParams';
 import { AssetAmount } from '@ergolabs/ergo-sdk';
 import { NetworkContext } from '@ergolabs/ergo-sdk/build/main/entities/networkContext';
+import { ActionContext } from 'ergo-dex-sdk-custom/build/main/lqmining/models/actionContext';
+import { LqRedeemConf } from 'ergo-dex-sdk-custom/build/main/lqmining/models/poolOpParams';
 
 import { NEW_MIN_BOX_VALUE } from '../../../../../common/constants/erg';
 import { Currency } from '../../../../../common/models/Currency';

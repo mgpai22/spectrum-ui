@@ -1,10 +1,4 @@
 import {
-  LockParams,
-  millisToBlocks,
-  mkLockActions,
-  mkLockParser,
-} from 'ergo-dex-sdk-custom';
-import {
   BoxSelection,
   DefaultBoxSelector,
   MinBoxValue,
@@ -13,6 +7,12 @@ import {
 } from '@ergolabs/ergo-sdk';
 import { Button, Checkbox, Flex, Modal } from '@ergolabs/ui-kit';
 import { t, Trans } from '@lingui/macro';
+import {
+  LockParams,
+  millisToBlocks,
+  mkLockActions,
+  mkLockParser,
+} from 'ergo-dex-sdk-custom';
 import { DateTime } from 'luxon';
 import { useState } from 'react';
 import * as React from 'react';
