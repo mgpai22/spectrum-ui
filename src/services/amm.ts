@@ -3,7 +3,7 @@ import {
   AmmOrderRefundsWrapper,
   DefaultAmmOrdersParser,
   DefaultAmmPoolsInfoParser,
-} from '@ergolabs/ergo-dex-sdk';
+} from 'ergo-dex-sdk-custom';
 
 import { mainnetTxAssembler } from './defaultTxAssembler';
 import { explorer } from './explorer';

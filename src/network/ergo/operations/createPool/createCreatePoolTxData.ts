@@ -1,5 +1,5 @@
-import { makePoolSetupParams, PoolSetupParams } from '@ergolabs/ergo-dex-sdk';
-import { InvalidParams } from '@ergolabs/ergo-dex-sdk/build/main/amm/common/errors/invalidParams';
+import { makePoolSetupParams, PoolSetupParams } from 'ergo-dex-sdk-custom';
+import { InvalidParams } from 'ergo-dex-sdk-custom/build/main/amm/common/errors/invalidParams';
 import { AssetAmount, ErgoBox, TransactionContext } from '@ergolabs/ergo-sdk';
 import { NetworkContext } from '@ergolabs/ergo-sdk/build/main/entities/networkContext';
 import { first, map, Observable, zip } from 'rxjs';

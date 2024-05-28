@@ -1,4 +1,4 @@
-import { PoolId } from '@ergolabs/ergo-dex-sdk';
+import { PoolId } from 'ergo-dex-sdk-custom';
 import { Flex, Skeleton, useDevice } from '@ergolabs/ui-kit';
 import { t } from '@lingui/macro';
 import * as React from 'react';

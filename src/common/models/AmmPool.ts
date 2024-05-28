@@ -1,4 +1,4 @@
-import { AmmPool as ErgoBaseAmmPool } from '@ergolabs/ergo-dex-sdk';
+import { AmmPool as ErgoBaseAmmPool } from 'ergo-dex-sdk-custom';
 import { AmmPool as CardanoBaseAmmPool } from '@spectrumlabs/cardano-dex-sdk';
 import { evaluate } from 'mathjs';
 

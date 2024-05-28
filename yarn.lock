@@ -1811,23 +1811,6 @@
     ts-node "^9"
     tslib "^2"
 
-"@ergolabs/ergo-dex-sdk@^1.9.67":
-  version "1.9.67"
-  resolved "https://registry.yarnpkg.com/@ergolabs/ergo-dex-sdk/-/ergo-dex-sdk-1.9.67.tgz#4cb2af338aa8ff5abf917976a30c29ea7b3306df"
-  integrity sha512-kQB/fx9Aw1Jwb5lHY3DbItzETOss9KBogxSvJtJ3+qWCLKq+Iw3wwAf5m5kzMbKga/o40poOqSv320lbn4NQSw==
-  dependencies:
-    "@ergolabs/ergo-sdk" "^0.5.7"
-    axios "^0.21.1"
-    blakejs "^1.1.0"
-    bs58 "^4.0.1"
-    crypto-js "^4.0.0"
-    ergo-lib-wasm-browser "0.20.1"
-    ergo-lib-wasm-nodejs "0.20.1"
-    esm-wallaby "^3.2.25"
-    json-bigint "^1.0.0"
-    mathjs "^9.4.4"
-    ramda "0.27.1"
-
 "@ergolabs/ergo-sdk@^0.5.7":
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/@ergolabs/ergo-sdk/-/ergo-sdk-0.5.7.tgz#cb65f3f5d7fb72058ebf1e1188205e01630f7997"
@@ -7489,6 +7472,23 @@ env-paths@^2.2.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/env-paths/-/env-paths-2.2.1.tgz#420399d416ce1fbe9bc0a07c62fa68d67fd0f8f2"
   integrity sha512-+h1lkLKhZMTYjog1VEpJNG7NZJWcuc2DDk/qsqSTRRCOXiLjeQ1d1/udrUGhqMxUgAlwKNZ0cf2uqan5GLuS2A==
+
+ergo-dex-sdk-custom@^1.9.67:
+  version "1.9.67"
+  resolved "https://registry.yarnpkg.com/ergo-dex-sdk-custom/-/ergo-dex-sdk-custom-1.9.67.tgz#5dc47af09a5d69d41ca8ba5dbf627afc41e0b1c6"
+  integrity sha512-qyBt9eBTLZs5rD+U7CTTUNg9Vq+6gMLzw7AabfqSFuVta1q4R1BwXZ+vxIoxtIzKH4piHZqX7kjxpOTBjcElEg==
+  dependencies:
+    "@ergolabs/ergo-sdk" "^0.5.7"
+    axios "^0.21.1"
+    blakejs "^1.1.0"
+    bs58 "^4.0.1"
+    crypto-js "^4.0.0"
+    ergo-lib-wasm-browser "0.20.1"
+    ergo-lib-wasm-nodejs "0.20.1"
+    esm-wallaby "^3.2.25"
+    json-bigint "^1.0.0"
+    mathjs "^9.4.4"
+    ramda "0.27.1"
 
 ergo-lib-wasm-browser@0.20.1, ergo-lib-wasm-browser@^0.20.1:
   version "0.20.1"

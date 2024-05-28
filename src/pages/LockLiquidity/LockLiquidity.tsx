@@ -1,4 +1,4 @@
-import { PoolId } from '@ergolabs/ergo-dex-sdk';
+import { PoolId } from 'ergo-dex-sdk-custom';
 import { t } from '@lingui/macro';
 import { Skeleton } from 'antd';
 import { useNavigate } from 'react-router-dom';

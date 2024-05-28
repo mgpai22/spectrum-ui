@@ -1,4 +1,4 @@
-import { AmmDexOperation } from '@ergolabs/ergo-dex-sdk';
+import { AmmDexOperation } from 'ergo-dex-sdk-custom';
 
 import { Dictionary } from '../../../../../../common/utils/Dictionary';
 

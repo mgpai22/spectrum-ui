@@ -1,4 +1,4 @@
-import { blocksToMillis, PoolId } from '@ergolabs/ergo-dex-sdk';
+import { blocksToMillis, PoolId } from 'ergo-dex-sdk-custom';
 import {
   Animation,
   Flex,

@@ -1,7 +1,7 @@
-import { makeStakes } from '@ergolabs/ergo-dex-sdk';
-import { Stake } from '@ergolabs/ergo-dex-sdk/build/main/lqmining/models/stake';
-import { StakeFromBox } from '@ergolabs/ergo-dex-sdk/build/main/lqmining/parsers/stakeFromBox';
-import { Stakes } from '@ergolabs/ergo-dex-sdk/build/main/lqmining/services/stakes';
+import { makeStakes } from 'ergo-dex-sdk-custom';
+import { Stake } from 'ergo-dex-sdk-custom/build/main/lqmining/models/stake';
+import { StakeFromBox } from 'ergo-dex-sdk-custom/build/main/lqmining/parsers/stakeFromBox';
+import { Stakes } from 'ergo-dex-sdk-custom/build/main/lqmining/services/stakes';
 import {
   from,
   map,

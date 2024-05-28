@@ -1,4 +1,4 @@
-import { LmPool, makeLmPools, Pools } from '@ergolabs/ergo-dex-sdk';
+import { LmPool, makeLmPools, Pools } from 'ergo-dex-sdk-custom';
 
 import { explorer } from '../../../../../services/explorer';
 

@@ -1,4 +1,4 @@
-import { PoolId } from '@ergolabs/ergo-dex-sdk';
+import { PoolId } from 'ergo-dex-sdk-custom';
 import axios from 'axios';
 import { DateTime } from 'luxon';
 import { from, map, Observable } from 'rxjs';

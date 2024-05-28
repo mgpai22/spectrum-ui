@@ -1,4 +1,4 @@
-import { makeWrappedNativePoolActionsSelector } from '@ergolabs/ergo-dex-sdk';
+import { makeWrappedNativePoolActionsSelector } from 'ergo-dex-sdk-custom';
 
 import { UI_REWARD_ADDRESS } from '../common/constants/settings';
 import { mainnetTxAssembler } from './defaultTxAssembler';

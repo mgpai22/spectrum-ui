@@ -1,4 +1,4 @@
-import { LmPool as BaseLmPool } from '@ergolabs/ergo-dex-sdk';
+import { LmPool as BaseLmPool } from 'ergo-dex-sdk-custom';
 import uniqBy from 'lodash/uniqBy';
 import {
   combineLatest,

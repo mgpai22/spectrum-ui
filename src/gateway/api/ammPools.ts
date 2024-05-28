@@ -1,4 +1,4 @@
-import { PoolId } from '@ergolabs/ergo-dex-sdk';
+import { PoolId } from 'ergo-dex-sdk-custom';
 import { map, Observable, publishReplay, refCount, switchMap } from 'rxjs';
 
 import { AmmPool } from '../../common/models/AmmPool';

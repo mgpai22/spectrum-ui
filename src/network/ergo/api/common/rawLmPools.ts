@@ -1,4 +1,4 @@
-import { LmPool } from '@ergolabs/ergo-dex-sdk';
+import { LmPool } from 'ergo-dex-sdk-custom';
 import {
   catchError,
   filter,

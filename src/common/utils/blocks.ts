@@ -1,4 +1,4 @@
-import { blocksToTimestamp, timestampToBlocks } from '@ergolabs/ergo-dex-sdk';
+import { blocksToTimestamp, timestampToBlocks } from 'ergo-dex-sdk-custom';
 import { DateTime } from 'luxon';
 
 export const dateTimeToBlock = (

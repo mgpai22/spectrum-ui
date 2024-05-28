@@ -1,5 +1,5 @@
-import { ActionContext } from '@ergolabs/ergo-dex-sdk/build/main/lqmining/models/actionContext';
-import { LqDepositConf } from '@ergolabs/ergo-dex-sdk/build/main/lqmining/models/poolOpParams';
+import { ActionContext } from 'ergo-dex-sdk-custom/build/main/lqmining/models/actionContext';
+import { LqDepositConf } from 'ergo-dex-sdk-custom/build/main/lqmining/models/poolOpParams';
 import { AssetAmount } from '@ergolabs/ergo-sdk';
 import { NetworkContext } from '@ergolabs/ergo-sdk/build/main/entities/networkContext';
 

@@ -2,7 +2,7 @@ import {
   AmmPool,
   DefaultAmmPoolValidation,
   ValidationResult,
-} from '@ergolabs/ergo-dex-sdk';
+} from 'ergo-dex-sdk-custom';
 
 import { explorer } from '../services/explorer';
 

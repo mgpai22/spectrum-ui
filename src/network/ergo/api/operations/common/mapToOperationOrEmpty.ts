@@ -1,10 +1,10 @@
-import { AmmDexOperation, AmmOrder } from '@ergolabs/ergo-dex-sdk';
+import { AmmDexOperation, AmmOrder } from 'ergo-dex-sdk-custom';
 import {
   Deposit,
   Redeem,
   Swap,
-} from '@ergolabs/ergo-dex-sdk/build/main/amm/common/models/ammOrderInfo';
-import { AmmOrderStatus } from '@ergolabs/ergo-dex-sdk/build/main/amm/common/models/operations';
+} from 'ergo-dex-sdk-custom/build/main/amm/common/models/ammOrderInfo';
+import { AmmOrderStatus } from 'ergo-dex-sdk-custom/build/main/amm/common/models/operations';
 import { DateTime } from 'luxon';
 import { combineLatest, map, Observable, of } from 'rxjs';
 

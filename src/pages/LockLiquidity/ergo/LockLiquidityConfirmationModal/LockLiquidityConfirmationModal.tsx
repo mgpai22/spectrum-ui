@@ -3,7 +3,7 @@ import {
   millisToBlocks,
   mkLockActions,
   mkLockParser,
-} from '@ergolabs/ergo-dex-sdk';
+} from 'ergo-dex-sdk-custom';
 import {
   BoxSelection,
   DefaultBoxSelector,

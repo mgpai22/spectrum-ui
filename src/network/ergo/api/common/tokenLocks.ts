@@ -1,5 +1,5 @@
-import { mkLockParser, mkLocksHistory } from '@ergolabs/ergo-dex-sdk';
-import { TokenLock } from '@ergolabs/ergo-dex-sdk/build/main/security/entities';
+import { mkLockParser, mkLocksHistory } from 'ergo-dex-sdk-custom';
+import { TokenLock } from 'ergo-dex-sdk-custom/build/main/security/entities';
 import { map, Observable, publishReplay, refCount, switchMap } from 'rxjs';
 
 import { explorer } from '../../../../services/explorer';

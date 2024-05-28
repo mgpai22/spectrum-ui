@@ -3,7 +3,7 @@ import {
   makeSpfPoolActionsSelector,
   makeWrappedNativePoolActionsSelector,
   makeWrappedSpfPoolActionsSelector,
-} from '@ergolabs/ergo-dex-sdk';
+} from 'ergo-dex-sdk-custom';
 
 import { mainnetTxAssembler } from '../../../../services/defaultTxAssembler';
 import { uiFeeParams$ } from '../../api/uiFee/uiFee';

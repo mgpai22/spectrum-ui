@@ -1,4 +1,4 @@
-import { blocksToMillis } from '@ergolabs/ergo-dex-sdk';
+import { blocksToMillis } from 'ergo-dex-sdk-custom';
 import { DateTime } from 'luxon';
 import {
   combineLatest,

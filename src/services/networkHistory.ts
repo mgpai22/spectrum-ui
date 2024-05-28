@@ -1,4 +1,4 @@
-import { NetworkHistory } from '@ergolabs/ergo-dex-sdk';
+import { NetworkHistory } from 'ergo-dex-sdk-custom';
 
 import { ordersParser, poolsInfoParser } from './amm';
 import { explorer } from './explorer';

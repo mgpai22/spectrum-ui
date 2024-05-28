@@ -1,3 +1,3 @@
-import { mkLockParser } from '@ergolabs/ergo-dex-sdk';
+import { mkLockParser } from 'ergo-dex-sdk-custom';
 
 export const lockParser = mkLockParser();

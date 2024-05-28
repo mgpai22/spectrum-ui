@@ -1,7 +1,7 @@
 import {
   blocksToDaysCount,
   LmPool as ErgoBaseLmPool,
-} from '@ergolabs/ergo-dex-sdk';
+} from 'ergo-dex-sdk-custom';
 import { DateTime } from 'luxon';
 
 import { applicationConfig } from '../../../../applicationConfig';

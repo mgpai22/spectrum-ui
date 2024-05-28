@@ -1,4 +1,4 @@
-import { minValueForOrder, minValueForSetup } from '@ergolabs/ergo-dex-sdk';
+import { minValueForOrder, minValueForSetup } from 'ergo-dex-sdk-custom';
 import {
   AssetAmount,
   BoxSelection,

@@ -1,4 +1,4 @@
-import { AmmPool as ErgoBaseAmmPool } from '@ergolabs/ergo-dex-sdk';
+import { AmmPool as ErgoBaseAmmPool } from 'ergo-dex-sdk-custom';
 import { AssetAmount } from '@ergolabs/ergo-sdk';
 
 import { usdAsset } from '../../../../common/constants/usdAsset';

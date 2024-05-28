@@ -1,4 +1,4 @@
-import { mkPoolActions, mkWrappedPoolActions } from '@ergolabs/ergo-dex-sdk';
+import { mkPoolActions, mkWrappedPoolActions } from 'ergo-dex-sdk-custom';
 
 import { UI_REWARD_ADDRESS } from '../../../../../common/constants/settings';
 import { mainnetTxAssembler } from '../../../../../services/defaultTxAssembler';

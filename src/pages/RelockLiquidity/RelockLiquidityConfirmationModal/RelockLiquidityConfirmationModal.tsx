@@ -2,7 +2,7 @@ import {
   millisToBlocks,
   mkLockActions,
   RelockParams,
-} from '@ergolabs/ergo-dex-sdk';
+} from 'ergo-dex-sdk-custom';
 import {
   AssetAmount,
   BoxSelection,

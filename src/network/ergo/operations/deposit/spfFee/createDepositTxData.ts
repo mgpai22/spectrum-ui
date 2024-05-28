@@ -1,5 +1,5 @@
-import { DepositParams } from '@ergolabs/ergo-dex-sdk';
-import { SpecExFeeType } from '@ergolabs/ergo-dex-sdk/build/main/types';
+import { DepositParams } from 'ergo-dex-sdk-custom';
+import { SpecExFeeType } from 'ergo-dex-sdk-custom/build/main/types';
 import { AssetAmount, ErgoBox, TransactionContext } from '@ergolabs/ergo-sdk';
 import { NetworkContext } from '@ergolabs/ergo-sdk/build/main/entities/networkContext';
 import { first, map, Observable, zip } from 'rxjs';

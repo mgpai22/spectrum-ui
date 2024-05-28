@@ -1,4 +1,4 @@
-import { AmmPool as BaseAmmPool } from '@ergolabs/ergo-dex-sdk';
+import { AmmPool as BaseAmmPool } from 'ergo-dex-sdk-custom';
 
 import { mockAsset } from './asset';
 

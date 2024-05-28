@@ -1,4 +1,4 @@
-import type { PoolId } from '@ergolabs/ergo-dex-sdk';
+import type { PoolId } from 'ergo-dex-sdk-custom';
 import axios from 'axios';
 import { catchError, from, map, Observable, of } from 'rxjs';
 

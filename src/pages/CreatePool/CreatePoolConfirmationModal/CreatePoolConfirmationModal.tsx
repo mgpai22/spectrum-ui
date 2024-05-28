@@ -2,7 +2,7 @@ import {
   makePoolSetupParams,
   minValueForSetup,
   PoolSetupParams,
-} from '@ergolabs/ergo-dex-sdk';
+} from 'ergo-dex-sdk-custom';
 import {
   AssetAmount,
   BoxSelection,

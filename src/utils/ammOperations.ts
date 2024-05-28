@@ -1,4 +1,4 @@
-import { OpStatus } from '@ergolabs/ergo-dex-sdk/build/main/amm/common/models/ammOperation';
+import { OpStatus } from 'ergo-dex-sdk-custom/build/main/amm/common/models/ammOperation';
 import {
   Address,
   BoxSelection,

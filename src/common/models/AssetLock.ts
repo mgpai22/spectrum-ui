@@ -1,4 +1,4 @@
-import { millisToBlocks } from '@ergolabs/ergo-dex-sdk';
+import { millisToBlocks } from 'ergo-dex-sdk-custom';
 import { BoxId, PublicKey } from '@ergolabs/ergo-sdk';
 import { DateTime } from 'luxon';
 

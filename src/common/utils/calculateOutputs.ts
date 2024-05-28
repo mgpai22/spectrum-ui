@@ -1,4 +1,4 @@
-import { swapVars } from '@ergolabs/ergo-dex-sdk/build/main/amm/common/math/swap';
+import { swapVars } from 'ergo-dex-sdk-custom/build/main/amm/common/math/swap';
 
 import { getBaseInputParameters } from '../../utils/walletMath';
 import { AmmPool } from '../models/AmmPool';

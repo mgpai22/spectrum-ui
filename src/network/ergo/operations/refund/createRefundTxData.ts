@@ -1,4 +1,4 @@
-import { RefundParams } from '@ergolabs/ergo-dex-sdk';
+import { RefundParams } from 'ergo-dex-sdk-custom';
 import {
   DefaultBoxSelector,
   InsufficientInputs,

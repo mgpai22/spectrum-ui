@@ -1,6 +1,6 @@
 import './LiquidityDatePicker.less';
 
-import { millisToBlocks } from '@ergolabs/ergo-dex-sdk';
+import { millisToBlocks } from 'ergo-dex-sdk-custom';
 import { DatePicker, Flex, Typography } from '@ergolabs/ui-kit';
 import { t } from '@lingui/macro';
 import { DateTime } from 'luxon';
