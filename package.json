@@ -37,7 +37,7 @@
     "@types/recharts": "^1.8.23",
     "@types/styled-components": "^5.1.23",
     "axios": "^0.24.0",
-    "ergo-dex-sdk-custom": "^1.9.70",
+    "ergo-dex-sdk-custom": "^1.9.71",
     "eslint-plugin-react-hooks": "^4.2.0",
     "file-saver": "^2.0.5",
     "js-cookie": "^3.0.0",
@@ -111,8 +111,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "engines": {
-    "node": "^20"
   }
 }
