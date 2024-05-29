@@ -103,7 +103,7 @@ const toSwapOperationArgs = ({
         ],
     {
       minerFee: minerFee.amount,
-      uiFee: uiFee.amount,
+      uiFee: 0n,
       exFee: NEW_MIN_BOX_VALUE,
     },
     true,

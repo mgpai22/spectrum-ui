@@ -61,6 +61,7 @@ const toSwapOperationArgs = ({
   nitro,
   minTotalFee,
   maxTotalFee,
+  // @ts-ignore
   uiFee,
 }: SwapOperationCandidateParams): [
   SwapParams<NativeExFeeType>,
@@ -95,7 +96,7 @@ const toSwapOperationArgs = ({
     [new AssetAmount(from.asset, baseInputAmount)],
     {
       minerFee: minerFee.amount,
-      uiFee: uiFee.amount,
+      uiFee: 0n,
       exFee: extremum.maxExFee,
     },
   );
@@ -106,7 +107,7 @@ const toSwapOperationArgs = ({
     baseInput,
     minQuoteOutput: extremum.minOutput.amount,
     exFeePerToken,
-    uiFee: uiFee.amount,
+    uiFee: 0n,
     quoteAsset: to.asset.id,
     poolFeeNum: pool.pool.poolFeeNum,
     maxExFee: extremum.maxExFee,

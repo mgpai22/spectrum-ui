@@ -7473,10 +7473,10 @@ env-paths@^2.2.0:
   resolved "https://registry.yarnpkg.com/env-paths/-/env-paths-2.2.1.tgz#420399d416ce1fbe9bc0a07c62fa68d67fd0f8f2"
   integrity sha512-+h1lkLKhZMTYjog1VEpJNG7NZJWcuc2DDk/qsqSTRRCOXiLjeQ1d1/udrUGhqMxUgAlwKNZ0cf2uqan5GLuS2A==
 
-ergo-dex-sdk-custom@^1.9.67:
-  version "1.9.67"
-  resolved "https://registry.yarnpkg.com/ergo-dex-sdk-custom/-/ergo-dex-sdk-custom-1.9.67.tgz#5dc47af09a5d69d41ca8ba5dbf627afc41e0b1c6"
-  integrity sha512-qyBt9eBTLZs5rD+U7CTTUNg9Vq+6gMLzw7AabfqSFuVta1q4R1BwXZ+vxIoxtIzKH4piHZqX7kjxpOTBjcElEg==
+ergo-dex-sdk-custom@^1.9.71:
+  version "1.9.71"
+  resolved "https://registry.yarnpkg.com/ergo-dex-sdk-custom/-/ergo-dex-sdk-custom-1.9.71.tgz#cb8e31099b737bc76f4089321a6b65bb406e95cb"
+  integrity sha512-fpNl5lnH687N8HQvyL/iwU/z/C4/MrCmI/ICcqlGg8/Drjtvhlp24x9KCCSfXvsNUrtjswQ6TKiT8ErZr6bosw==
   dependencies:
     "@ergolabs/ergo-sdk" "^0.5.7"
     axios "^0.21.1"
